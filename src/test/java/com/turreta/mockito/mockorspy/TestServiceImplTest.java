@@ -2,7 +2,6 @@ package com.turreta.mockito.mockorspy;
 
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -30,7 +29,6 @@ public class TestServiceImplTest {
     }
 
     @Test
-    @Ignore("Just ignore lah")
     public void test_dependencies_mock_or_spy() {
 
         // dependency1 is a mock object
